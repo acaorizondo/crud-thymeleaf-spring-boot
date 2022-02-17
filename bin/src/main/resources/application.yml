@@ -4,13 +4,11 @@ server:
 spring:
  thymeleaf:
   cache: false
- 
  jpa:
   database: POSTGRESQL
   show-sql: true
   ddl-auto: update
   properties.hibernate.jdbc.lob.non_contextual_creation: true
- 
  datasource:
   driver-class-name: org.postgresql.Driver
   url: jdbc:postgresql://localhost:5432/pncti
